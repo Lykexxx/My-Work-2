@@ -1,0 +1,43 @@
+.header {
+    padding: 10px 0;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header__title {
+    color: #323232;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav {
+    color: #323232;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 42px;
+}
+
+.nav__item {
+    a {
+        color: inherit;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
