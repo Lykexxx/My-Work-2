@@ -21,6 +21,7 @@ body {
 
 .btn {
     display: inline-block;
+    text-decoration: none;
 
     padding: 18px 37px;
     border-radius: 29px;
@@ -30,10 +31,12 @@ body {
     font-size: $normal_size;
     font-weight: $title_weight;
     cursor: pointer;
-    transition: background-color .3s ease-in-out;
+    transition: all .4s ease-in-out;
 
     &:hover {
-        background-color: #cf6112;
+        background-color: #ffffff;
+        color: #323232;
+        outline: 1px solid #323232;
     }
 }
 
