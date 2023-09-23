@@ -316,29 +316,30 @@ body {
 }
 
 .container {
-  max-width: 1260px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 30px;
 }
 
 .header {
-  padding: 10px 0;
+  padding-top: 20px;
+  margin-bottom: 100px;
 }
 
-.header__wrapper {
+.nav__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header__logo {
+.nav__logo {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
-.header__title {
+.nav__title {
   color: #323232;
   font-size: 24px;
   font-style: normal;
@@ -348,6 +349,7 @@ body {
 
 .nav {
   color: #323232;
+  margin-bottom: 20px;
 }
 
 .nav__list {
@@ -356,8 +358,85 @@ body {
   gap: 42px;
 }
 
+.nav__item {
+  transition: color 0.3s ease-in-out;
+}
 .nav__item a {
   color: inherit;
   text-decoration: none;
   display: inline-block;
+}
+.nav__item:hover {
+  color: #F78434;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__content {
+  margin-right: -100px;
+  max-height: 676px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  z-index: 10;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 79px;
+  letter-spacing: 0.8px;
+  max-width: 674px;
+}
+
+.header__text {
+  color: #323232;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+  letter-spacing: 1.15px;
+  max-width: 467px;
+  padding-bottom: 42px;
+}
+
+.header__img {
+  position: relative;
+  text-align: center;
+}
+
+.header__form {
+  border-radius: 29px;
+  background: #FFF;
+  box-shadow: 0px 17px 42px 0px rgba(0, 0, 0, 0.12);
+  max-width: 459px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__input {
+  max-width: 154px;
+  background-color: transparent;
+  border: none;
+  opacity: 0.5;
+  margin-left: 72px;
+}
+
+.form__btn {
+  padding: 18px 37px;
+  border-radius: 29px;
+  background-color: #F78434;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  transition: background-color 0.3s ease-in-out;
+}
+.form__btn:hover {
+  background-color: #cf6112;
 }
