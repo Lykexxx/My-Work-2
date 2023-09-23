@@ -13,16 +13,15 @@
 .nav__logo {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
+    padding-bottom: 10px
 }
 
 .nav__title {
     color: #323232;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .nav {
@@ -47,6 +46,10 @@
     &:hover {
         color: $hover_color;
     }
+}
+
+.active {
+    color: $hover_color;
 }
 
 .header__wrapper {
@@ -104,6 +107,7 @@
 }
 
 .form__input {
+    padding: 10px 20px;
     max-width: 154px;
     background-color: transparent;
     border: none;
@@ -119,6 +123,7 @@
     color: $white;;
     font-size: $normal_size;
     font-weight: $title_weight;
+    cursor: pointer;
     transition: background-color .3s ease-in-out;
 
     &:hover {

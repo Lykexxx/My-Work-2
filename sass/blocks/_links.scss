@@ -1,0 +1,15 @@
+.links {
+    margin-bottom: 93px;
+}
+
+.links__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links__item {
+    max-width: 220px;
+    cursor: pointer;
+
+}

@@ -335,16 +335,15 @@ body {
 .nav__logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
+  padding-bottom: 10px;
 }
 
 .nav__title {
   color: #323232;
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .nav {
@@ -367,6 +366,10 @@ body {
   display: inline-block;
 }
 .nav__item:hover {
+  color: #F78434;
+}
+
+.active {
   color: #F78434;
 }
 
@@ -420,6 +423,7 @@ body {
 }
 
 .form__input {
+  padding: 10px 20px;
   max-width: 154px;
   background-color: transparent;
   border: none;
@@ -435,8 +439,24 @@ body {
   color: white;
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
   transition: background-color 0.3s ease-in-out;
 }
 .form__btn:hover {
   background-color: #cf6112;
+}
+
+.links {
+  margin-bottom: 93px;
+}
+
+.links__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links__item {
+  max-width: 220px;
+  cursor: pointer;
 }
