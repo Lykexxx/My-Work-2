@@ -115,18 +115,3 @@
     margin-left: 72px;
 }
 
-.form__btn {
-    padding: 18px 37px;
-    border-radius: 29px;
-    background-color: #F78434;
-    border: none;
-    color: $white;;
-    font-size: $normal_size;
-    font-weight: $title_weight;
-    cursor: pointer;
-    transition: background-color .3s ease-in-out;
-
-    &:hover {
-        background-color: #cf6112;
-    }
-}

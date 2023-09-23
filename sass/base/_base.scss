@@ -8,4 +8,36 @@ body {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
+
+    &__fluid {
+        max-width: unset;
+        width: 100%;
+    }
+    &__no-padding {
+        padding: 0;
+    }
+}
+
+
+.btn {
+    display: inline-block;
+
+    padding: 18px 37px;
+    border-radius: 29px;
+    background-color: #F78434;
+    border: none;
+    color: $white;;
+    font-size: $normal_size;
+    font-weight: $title_weight;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+
+    &:hover {
+        background-color: #cf6112;
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
