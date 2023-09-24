@@ -1,5 +1,5 @@
 .thanks {
-
+    margin-bottom: 270px
 }
 
 .thanks__header {
@@ -55,7 +55,7 @@
 
     &:last-child {
         position: relative;
-        z-index: -10;
+        z-index: -1;
     }
 
 
@@ -107,8 +107,6 @@
 }
 
 .thanks__card-img {
-    position: relative;
-    z-index: -1;
     width: 350px;
 
     img {
