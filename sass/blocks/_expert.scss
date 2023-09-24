@@ -1,8 +1,10 @@
 .expert {
     background-image: url(../../img/expert/bg.png);
     background-repeat: no-repeat;
-    position: relative;
-    height: 550px;
+    background-position: center;
+    width: 100%;
+
+    object-fit: cover;
     margin-bottom: 50px;
 }
 
@@ -10,6 +12,7 @@
     display: flex;  
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .expert__content {
@@ -40,15 +43,32 @@
     }
 }
 
-.expert__btn {
-
-}
-
-.btn {
-
-}
-
 .expert__img {
     margin-top: -56px;
+    margin-right: 100px;
+    
 
+}
+
+@media (max-width:1150px) {
+
+    .expert__img {
+        display: none;
+    }
+
+    .expert {
+        background-image: none;
+    }
+
+    .expert__wrapper {
+        display: block;
+    }
+
+    .expert__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #000;
+
+    }
 }

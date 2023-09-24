@@ -316,7 +316,7 @@ body {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 30px;
 }
@@ -564,6 +564,20 @@ img {
   margin-top: 20px;
 }
 
+@media (max-width: 1150px) {
+  .objects__row {
+    display: block;
+  }
+  .objects__img {
+    justify-content: center;
+    align-items: center;
+  }
+  .objects__text {
+    text-align: center;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+}
 .cta {
   padding-top: 70px;
   padding-bottom: 144px;
@@ -843,8 +857,6 @@ img {
 }
 .thanks__content-card span {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 27px; /* 168.75% */
   letter-spacing: 1.15px;
   color: #58BEBF;
@@ -858,11 +870,33 @@ img {
   border-radius: 5px 5px 0px 0px;
 }
 
+@media (max-width: 1150px) {
+  .thanks__wrapper {
+    display: block;
+    text-align: center;
+  }
+  .thanks__card:last-child::after {
+    display: none;
+  }
+  .thanks__card img {
+    display: inline-block;
+    text-align: center;
+  }
+  .thanks__card-img {
+    display: inline-block;
+    text-align: center;
+  }
+  .thanks {
+    margin-bottom: 25px;
+  }
+}
 .expert {
   background-image: url(../../img/expert/bg.png);
   background-repeat: no-repeat;
-  position: relative;
-  height: 550px;
+  background-position: center;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-bottom: 50px;
 }
 
@@ -898,8 +932,26 @@ img {
 
 .expert__img {
   margin-top: -56px;
+  margin-right: 100px;
 }
 
+@media (max-width: 1150px) {
+  .expert__img {
+    display: none;
+  }
+  .expert {
+    background-image: none;
+  }
+  .expert__wrapper {
+    display: block;
+  }
+  .expert__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+  }
+}
 .footer {
   margin-bottom: 100px;
 }
