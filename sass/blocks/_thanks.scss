@@ -1,0 +1,119 @@
+.thanks {
+
+}
+
+.thanks__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+.thanks__title {
+    margin: 0;
+    padding: 0;
+    max-width: 455px;
+    color: #323232;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 62px; /* 147.619% */
+    letter-spacing: 0.8px;
+}
+
+.thanks__subtitle {
+    max-width: 398px;
+    color: #606060;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+    letter-spacing: 1.15px;
+}
+
+// Cards
+
+.thanks__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.thanks__card {
+    max-width: 350px;
+    max-height: 220px;
+    transition: all .4s ease-in-out;
+
+    &:hover {
+
+        span {
+            color: $hover_color;
+        }
+
+        .thanks__card-img::before {
+            opacity: .8;
+        }
+    }
+
+    &:last-child {
+        position: relative;
+        z-index: -10;
+    }
+
+
+    &:last-child::after {
+        background-image: url(../../img/thanks/last-child.svg);
+        height: 80px;
+        width: 80px;
+        content: "";
+        top: -40px;
+        right: -40px;
+        z-index: 5;
+        position: absolute;
+
+
+    }
+
+}
+
+.thanks__content-card {
+    padding: 30px;
+
+
+    p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px; /* 168.75% */
+        letter-spacing: 1.15px;
+        margin-bottom: 23px;
+    }
+    
+    h5 {
+        margin: 0;
+        padding: 0;
+
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+    }
+
+    span {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px; /* 168.75% */
+        letter-spacing: 1.15px;
+        color: #58BEBF;
+    }
+}
+
+.thanks__card-img {
+    position: relative;
+    z-index: -1;
+    width: 350px;
+
+    img {
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+}
