@@ -265,6 +265,81 @@
         max-width: 300px;
         text-align: center
     }
+
+    // expert 
+
+    .expert__wrapper {
+        justify-content: center;
+    }
+
+    .expert__content {
+        margin: 0 auto;
+        text-align: center;
+
+        color: white;
+
+        h3 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .expert__btn {
+        margin-bottom: 20px;
+    }
+
+    .expert__img {
+        display: none;
+    }
+
+    // Footer 
+    .footer__nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .footer__logo {
+        margin-bottom: 50px;
+    }
+
+    .footer__nav-card {
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        h5 {
+            font-size: 26px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            li {
+                margin-bottom: 0;
+
+                a {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
 }
 
 @media (max-width: 425px) {
@@ -460,11 +535,55 @@
             line-height: 20px;
         }
     }
+
+    .expert__content {
+
+        h3 {
+            font-size: 30px;
+            line-height: 35px;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+        .expert__btn {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    }
 }
 
 
 @media (max-width: 320px) {
     .container.container__fluid.container__no-padding {
         max-width: 280px;
+     }
+
+     .footer__nav-card {
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        h5 {
+            font-size: 20px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            li {
+                margin-bottom: 0;
+
+                a {
+                    font-size: 12px;
+                }
+            }
+        }
      }
 }
