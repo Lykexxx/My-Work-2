@@ -4,6 +4,14 @@
         font-size: 46px;
     }
 
+    // cta 
+
+    .cta__text {
+        padding-right: 50px;
+        margin-left: 20px;
+    }
+
+    // Thakns
 
   .thanks__wrapper {
       display: block;
@@ -34,6 +42,8 @@
       margin-bottom: 25px
   }
 
+//   Objects
+
     .objects__row {
         display: block;
     }
@@ -52,30 +62,13 @@
 }
 
 @media (max-width: 950px) {
+
     .header__img {
         display: none;
     }
 
-    .footer__wrapper {
-        display: block;
-    }
 
-    .footer__logo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        p {
-            text-align: center;
-        }
-    }
-
-    .footer__img {
-        margin-right: 10px;
-        
-    }
-
+// cta
     .cta__img {
         display: none;
     }
@@ -96,12 +89,38 @@
         text-align: center;
     }
 
+// Choose
+
     .choose__card:not(:last-child) {
         margin-bottom: 30px;
     }
 
     .choose__wrapper {
         display: block; 
+    }
+
+
+
+
+
+    .footer__wrapper {
+        display: block;
+    }
+
+    .footer__logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .footer__img {
+        margin-right: 10px;
+        
     }
 }
 
@@ -297,6 +316,33 @@
 
     .container.container__fluid.container__no-padding {
        max-width: 390px;
+    }
+
+    // cta 
+
+    .cta__title {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .cta__text {
+        max-width: 100%;
+
+        p {
+            max-width: 250px;
+            font-size: 10px;
+            text-align: center;
+            line-height: 17px;
+        }
+    }
+
+    .cta__btn {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .play::before {
+        left: 8px;
     }
 
 }
