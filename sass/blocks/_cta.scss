@@ -76,29 +76,3 @@
     }
 
 }
-
-@media (max-width: 950px) {
-    .cta__img {
-        display: none;
-    }
-
-    .cta__text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-right: 0;
-        padding: 15px;
-    }
-
-    .cta__block {
-        justify-content: center;
-    }
-
-    .cta__title {
-        text-align: center;
-    }
-
-    .choose__card:not(:last-child) {
-        margin-bottom: 30px;
-    }
-}

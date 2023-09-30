@@ -1,5 +1,5 @@
 .expert {
-    background-image: url(../../img/expert/bg.png);
+    background-image: url(./../img/expert/bg.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -16,7 +16,7 @@
 }
 
 .expert__content {
-    color: black;
+    
 
     h3 {
         padding-top: 100px;
@@ -50,25 +50,3 @@
 
 }
 
-@media (max-width:1150px) {
-
-    .expert__img {
-        display: none;
-    }
-
-    .expert {
-        background-image: none;
-    }
-
-    .expert__wrapper {
-        display: block;
-    }
-
-    .expert__content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: #000;
-
-    }
-}
