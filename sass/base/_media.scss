@@ -557,8 +557,14 @@
 
 
 @media (max-width: 320px) {
-    .container.container__fluid.container__no-padding {
+
+    .header__title {
+        font-size: 20px;
         max-width: 280px;
+    }
+
+    .container.container__fluid.container__no-padding {
+        max-width: 250px;
      }
 
      .footer__nav-card {
@@ -585,5 +591,13 @@
                 }
             }
         }
+     }
+
+     .serve__card {
+        max-width: 280px;
+     }
+
+     .footer__nav-card {
+        max-width: 280px;
      }
 }
