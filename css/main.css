@@ -352,6 +352,10 @@ img {
   max-width: 100%;
 }
 
+.none {
+  display: none;
+}
+
 .header {
   padding-top: 20px;
   margin-bottom: 100px;
@@ -938,7 +942,7 @@ img {
 }
 
 .expert__content {
-  color: white;
+  color: black;
 }
 .expert__content h3 {
   padding-top: 100px;
