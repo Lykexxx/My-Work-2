@@ -250,9 +250,25 @@
             line-height: 20px;
         }
      }
+
+    //  Chose 
+
+    .thanks__title {
+        font-size: 30px;
+        max-width: 300px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .thanks__subtitle {
+        font-size: 14px;
+        max-width: 300px;
+        text-align: center
+    }
 }
 
 @media (max-width: 425px) {
+
 
     .nav__wrapper {
         margin-bottom: 20px;
@@ -260,6 +276,10 @@
 
     .container {
         padding: 15px;
+    }
+
+    .header {
+        margin-bottom: 30px;
     }
 
     .header__wrapper {
@@ -384,6 +404,61 @@
 
     .serve__card {
         max-width: 320px;
+    }
+
+    // Choose 
+
+    .choose__title {
+        font-size: 30px;
+    }
+
+    .choose__card {
+
+        h4 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            max-width: 300px;
+        }
+    }
+
+    // Thakns 
+
+    .thanks__title {
+        max-width: 150px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .thanks__subtitle {
+        max-width: 150px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .thanks__card-img {
+        max-width: 250px;
+        img {
+            width: 100%;
+        }
+    }
+
+    .thanks__content-card {
+
+        h5 {
+            font-size: 20px;
+        }
+        
+        span {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 10px;
+            line-height: 20px;
+        }
     }
 }
 

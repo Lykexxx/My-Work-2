@@ -1137,6 +1137,17 @@ img {
     text-align: center;
     line-height: 20px;
   }
+  .thanks__title {
+    font-size: 30px;
+    max-width: 300px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .thanks__subtitle {
+    font-size: 14px;
+    max-width: 300px;
+    text-align: center;
+  }
 }
 @media (max-width: 425px) {
   .nav__wrapper {
@@ -1144,6 +1155,9 @@ img {
   }
   .container {
     padding: 15px;
+  }
+  .header {
+    margin-bottom: 30px;
   }
   .header__wrapper {
     display: flex;
@@ -1236,6 +1250,42 @@ img {
   }
   .serve__card {
     max-width: 320px;
+  }
+  .choose__title {
+    font-size: 30px;
+  }
+  .choose__card h4 {
+    font-size: 20px;
+  }
+  .choose__card p {
+    font-size: 14px;
+    max-width: 300px;
+  }
+  .thanks__title {
+    max-width: 150px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .thanks__subtitle {
+    max-width: 150px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .thanks__card-img {
+    max-width: 250px;
+  }
+  .thanks__card-img img {
+    width: 100%;
+  }
+  .thanks__content-card h5 {
+    font-size: 20px;
+  }
+  .thanks__content-card span {
+    font-size: 14px;
+  }
+  .thanks__content-card p {
+    font-size: 10px;
+    line-height: 20px;
   }
 }
 @media (max-width: 320px) {
