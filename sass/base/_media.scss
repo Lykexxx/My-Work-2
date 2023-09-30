@@ -213,6 +213,43 @@
     .container.container__fluid.container__no-padding {
         max-width: 700px;
      }
+
+// serv
+     .serve__wrapper {
+        flex-direction: column;
+     }
+
+     .serve__card {
+        max-width: 400px;
+     }
+
+     .service__card-svg {
+        padding: 20px 0;
+     }
+
+     .serve__content {
+
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+     }
+
+     .serve__title {
+
+        h3 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 13px;
+            text-align: center;
+            line-height: 20px;
+        }
+     }
 }
 
 @media (max-width: 425px) {
@@ -345,6 +382,9 @@
         left: 8px;
     }
 
+    .serve__card {
+        max-width: 320px;
+    }
 }
 
 

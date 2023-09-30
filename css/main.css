@@ -1114,6 +1114,29 @@ img {
   .container.container__fluid.container__no-padding {
     max-width: 700px;
   }
+  .serve__wrapper {
+    flex-direction: column;
+  }
+  .serve__card {
+    max-width: 400px;
+  }
+  .service__card-svg {
+    padding: 20px 0;
+  }
+  .serve__content h3 {
+    font-size: 35px;
+  }
+  .serve__content p {
+    font-size: 15px;
+  }
+  .serve__title h3 {
+    font-size: 30px;
+  }
+  .serve__title p {
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+  }
 }
 @media (max-width: 425px) {
   .nav__wrapper {
@@ -1210,6 +1233,9 @@ img {
   }
   .play::before {
     left: 8px;
+  }
+  .serve__card {
+    max-width: 320px;
   }
 }
 @media (max-width: 320px) {
