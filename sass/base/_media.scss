@@ -99,10 +99,6 @@
         display: block; 
     }
 
-
-
-
-
     .footer__wrapper {
         display: block;
     }
@@ -122,6 +118,43 @@
         margin-right: 10px;
         
     }
+
+
+    // Borger
+    
+    .burger {
+        display: flex;
+    }
+
+    // nav 
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background-color: #e2d4d4;
+        animation: burgerAnimation .6s;  
+    }
+
+    .nav__list {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    @keyframes burgerAnimation {
+        from {opacity: 0}
+        to {opacity: 1}
+        
+    }
 }
 
 @media (max-width: 768px) {
@@ -135,28 +168,6 @@
         margin: 0 auto;
         padding: 0 15px;
         
-    }
-
-    .nav__wrapper {
-        background-color: #f78434;
-        margin: 0 auto;
-    }
-
-    .nav__title {
-        font-size: 30px;
-        color: white;
-    }
-
-    .nav__item {
-        font-size: 15px;
-    }
-
-    .nav {
-        display: none;
-    }
-
-    .nav__logo {
-        margin: 0 auto;
     }
 
     .header__wrapper {
