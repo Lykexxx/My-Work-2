@@ -452,6 +452,7 @@ img {
 }
 
 .header__form {
+  display: block;
   border-radius: 29px;
   background: #FFF;
   box-shadow: 0px 17px 42px 0px rgba(0, 0, 0, 0.12);
@@ -468,6 +469,10 @@ img {
   border: none;
   opacity: 0.5;
   margin-left: 72px;
+}
+
+.complite {
+  font-size: 20px;
 }
 
 .burger {
@@ -926,6 +931,9 @@ img {
   align-items: center;
 }
 
+.expert__content {
+  color: white;
+}
 .expert__content h3 {
   padding-top: 100px;
   font-size: 42px;
